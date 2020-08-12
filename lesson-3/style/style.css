@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root{
     --white: #fff;
     --black: #000;
@@ -65,4 +66,73 @@ footer{
     width: 100%;
     
     
+=======
+:root{
+    --white: #fff;
+    --black: #000;
+    --title-color: #535353;
+    --header-background: #a52a2a;
+    --place-holder:#000;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    min-height: 100vw;
+}
+header{
+    padding: 20px 0;
+}
+.main-header{
+    color: var(--white);
+    background-color: var(--header-background);
+    padding: 0px 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-picture{
+        padding: 20px 0;
+    
+}
+.header-picture img{
+    width: 100vw;
+}
+.main-info{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.list{
+    padding: 18px 0;
+}
+.main-info li{display: inline-block;
+    margin-right: 2px;} 
+.main-info li:last-child{
+    margin: 0;
+}
+.main-info img{
+    border: 3px dashed var(--black);
+    
+}
+.text{
+    text-align: left;
+}
+.footer-copyright{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+    text-align: center;
+    
+}
+footer{
+    background-color: black;
+    width: 100%;
+    
+    
+>>>>>>> 0b15a8426d64f2ec8aeed4004e77322966362c0e
 }

@@ -1,0 +1,30 @@
+h1{
+    color: skyblue;
+}
+ul{
+    list-style: none;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    li{
+        min-height: 400px;
+        background-color: red;
+        flex-basis: 20%;
+        max-width: 20%;
+        
+        &:nth-child(2){
+            background-color: green;  
+            order: -1;
+             
+        }
+        &:nth-child(3){
+            background-color: yellow;   
+            flex-grow: 2; 
+        }
+        &:nth-child(4){
+            background-color: purple;    
+        }
+    }
+}
