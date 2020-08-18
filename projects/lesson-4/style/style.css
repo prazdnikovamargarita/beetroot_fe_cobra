@@ -16,7 +16,7 @@ section{
     transform: translate(-50%, -50%);
 }
 .words{
-  padding-top: 48px;
+  padding-top: 28px;
 }
 .words h1{
   text-transform: uppercase;
@@ -25,10 +25,16 @@ section{
   letter-spacing: 5px;
   font-weight: normal;
   padding-bottom: 5px;
+  position: relative;
 }
-hr{
-  border: 1px solid white;
-  width: 231px;
+.words h1:after{
+  content: "";
+  position: absolute;
+  display: block;
+  border-bottom: 2px solid white;
+  top: 25px;
+  transform: translateY(50);
+  width: 186.7px;
 }
 .social-icons{
   padding-top: 24px;
