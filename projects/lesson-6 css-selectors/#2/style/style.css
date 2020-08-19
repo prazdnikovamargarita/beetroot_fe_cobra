@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    /*padding: 32px 5%;*/
+    min-height: 100vh;
+    background-color: #3b3f45;
+  }
+.main-menu{
+    background-color: #3b3f45;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.head_part{
+  widows: 100%;
+  background-color: #4a4f56;
+  color: #eb7e7a;
+  
+  padding: 20px 0;
+}
+.header{
+  padding: 10px 0;
+  font-weight: 600;
+}
+.second_header{
+  font-weight: 300;
+  font-size: 16px;
+}
+.shop_list{
+  position: absolute;
+  left: 51%;
+  transform: translate(-46%, 50%);
+  top: -50%;
+  background-color: #3b3f45;
+
+}
+.list{
+  padding-bottom:15px ;
+}
+.item{
+  list-style-type: none;
+  text-align: left;
+  padding: 15px 5px;
+  color: azure;
+  width: 1000px;
+  font-size: 21px;
+
+}
+.item:hover{
+    background-color: #625e77;
+    border-top: 2px solid white; /* Линия сверху текста */
+    border-bottom: 2px solid white; /* Линия снизу текста */
+    padding: 20px 5px;
+  }
+.item:nth-child(2n+1){
+  background-color: #88839e;
+}
+.item:nth-child(2n){
+  background-color: #7a7593;
+  
+}
+input:checked +span {
+  text-decoration: line-through;
+}
+.some_desription{
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.button{
+  
+  display: border-box;
+  padding: 15px;
+  width: 1000px;
+  background-color: #4a4f56;
+  color: #eb7e7a;
+  font-size: 24px;
+}

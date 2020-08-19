@@ -1,0 +1,73 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --title-color: #535353;
+    --header-background: #a52a2a;
+    --place-holder:#000;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow:hidden;
+overflow-y:hidden;  /*для вертикального*/
+overflow-x:hidden; 
+}
+.main_menu{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+.for_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto
+}
+.block{
+    width: auto;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+}
+.block:last-child{
+    margin-right: 0;
+}
+
+.header{
+    white-space: nowrap;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #000000;
+    font-size: 14px;
+}
+.text{
+    width: 100%;
+    font-size: 12px;
+    color:#9D9D9D;
+
+    
+}
+
+
+
+.icon_1{
+    position: absolute;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    top: -34%;
+    border-radius: 50%;
+    border: 1px solid blue;
+    background: blue;
+    width: 64px;
+    height: 64px;
+    padding: 18px;
+}
+.icon_1:hover{
+    background: white;
+}
