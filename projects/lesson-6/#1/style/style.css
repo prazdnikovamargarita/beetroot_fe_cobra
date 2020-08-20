@@ -54,7 +54,15 @@ overflow-x:hidden;
     
 }
 
+.icon{
 
+    color: white;
+    font-size: 24px;
+    display: block;
+  text-align: center;
+  margin-bottom: 12px;
+  
+}
 
 .icon_1{
     position: absolute;
@@ -66,8 +74,14 @@ overflow-x:hidden;
     background: blue;
     width: 64px;
     height: 64px;
-    padding: 18px;
-}
-.icon_1:hover{
+    text-align: center;
+    padding: 17px;
+    }
+.icon_1:hover, .icon:hover{
     background: white;
+    color: blue;
+    
+}
+.icon:hover{
+    
 }
