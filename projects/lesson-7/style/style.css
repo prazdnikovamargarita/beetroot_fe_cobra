@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans&display=swap');
+
+:root{
+    --head-font: 'Montserrat', sans-serif;
+    --text-font: 'Open Sans', sans-serif;
+    --head-color: #0EC8CB;
+    --description-color: #999999;
+    --logo-color: #898F99;
+    --icon-color: #1B1B1B;
+    --text-color: #777777;
+    --text-prsser-color: #FFFFFF;
+    --second-background: #0EC8CB;
+    --list-background: #F7F7F7;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #fff;
+    
+}
+.main_block{
+    text-align: center;
+    padding: 10% 0;
+}
+.logo{
+    font-family: var(--head-font);
+    color: var(--logo-color);
+    padding-bottom: 2%;
+    font-size: 12px;
+
+}
+.header{
+    padding-bottom: 5%;
+    text-align: center;
+}
+.header_text{
+    font-family: var(--head-font);
+    color: var(--head-color);
+    padding-bottom: 1%;
+    font-size: 48px;
+    letter-spacing: 2px;
+
+}
+.text_for_header{
+    font-family: var(--text-font);
+    color: var(--description-color);
+    font-size: 18px;
+    letter-spacing:1px;
+    max-width: 541px;
+    text-align: center;
+    margin: auto;
+ 
+}
+a{
+    text-decoration: none;
+    color: var(--logo-color);
+}
+.blocks{
+    display: flex;
+ 
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.list-item{
+    list-style-type: none;
+    color: var(--icon-color);
+    background-color: var(--list-background);
+ 
+}
+.item{
+    list-style-type: none;
+    color: var(--icon-color);
+    background-color: var(--list-background);
+    max-width: 10px;
+    min-height: 421px;
+    font-size: 16px;
+    color: var(--icon-color);
+}
+.items{
+    width: 241px;
+    height: 421px;
+    padding: 12px 12px;
+}
+.icon::before{
+    font-size: 32px;
+    color: var(--icon-color);
+    
+
+}
+.head_in_block{
+    font-family: var(--head-font);
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    text-align: center;
+    padding: 19px 0;
+    
+
+}
+
+.text_in_block{
+    font-family: var(--head-font);
+    font-size: 12px;
+    color: var(--text-color);
+    text-align: center;
+    height: auto;
+
+}
+.items:hover{
+    background-color: var(--head-color);
+    color: red;
+}
+.list:hover{
+    color: red;
+}

@@ -27,6 +27,10 @@ section{
   padding-bottom: 5px;
   position: relative;
 }
+a{
+  height: 250px;
+  width: 36px;
+}
 .words h1:after{
   content: "";
   position: absolute;
