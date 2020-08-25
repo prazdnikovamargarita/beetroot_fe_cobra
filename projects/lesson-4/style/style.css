@@ -28,8 +28,7 @@ section{
   position: relative;
 }
 a{
-  height: 250px;
-  width: 36px;
+ 
 }
 .words h1:after{
   content: "";
@@ -60,4 +59,11 @@ li:last-child{
 
  span{
     color:#00C7FC;
+  }
+  .aaaaaaa{
+    display: block;
+    text-align: center;
+    height: 36px;
+    width: 112px;
+    margin: auto;
   }
