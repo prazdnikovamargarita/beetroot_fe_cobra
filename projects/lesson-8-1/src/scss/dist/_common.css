@@ -1,0 +1,19 @@
+.bean {
+  fill: #cccc00;
+  opacity: 0.3;
+}
+
+.smoke {
+  opacity: 0.5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+}
+
+html, body {
+  min-height: 100vh;
+}

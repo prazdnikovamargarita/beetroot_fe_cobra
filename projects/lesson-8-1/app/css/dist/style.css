@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&display=swap");
+.bean {
+	fill: #cc0;
+	opacity: .3;
+}
+
+.smoke {
+	opacity: .5;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxtRkFBWTtBQUNaLHVGQUFZO0FBQ1o7RUFDRSxhQUFhO0VBQ2IsWUFBWSxFQUFBOztBQUdkO0VBQ0UsWUFBWSxFQUFBIiwiZmlsZSI6ImRpc3Qvc3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCB1cmwoXCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PURvc2lzOndnaHRAMzAwJmRpc3BsYXk9c3dhcFwiKTtcbkBpbXBvcnQgdXJsKFwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1Eb3Npczp3Z2h0QDMwMDs1MDAmZGlzcGxheT1zd2FwXCIpO1xuLmJlYW4ge1xuICBmaWxsOiAjY2NjYzAwO1xuICBvcGFjaXR5OiAwLjM7XG59XG5cbi5zbW9rZSB7XG4gIG9wYWNpdHk6IDAuNTtcbn0iXX0= */
