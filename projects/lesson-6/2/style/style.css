@@ -23,7 +23,7 @@ header {
   align-items: center;
   color: #eb7e7f;
   background-color: #4a4f56;
-  padding: 8px 0 20px;
+  padding: 28px 0 20px;
 }
 .list_container {
   background-color: #3b3f45;
@@ -72,7 +72,7 @@ label {
   cursor: pointer;
 }
 .text_list {
-  padding: 25px 0;
+  padding: 15px 0;
   background-color: #4a4f56;
   color: #eb7e7f;
   font-size: 25px;
@@ -110,13 +110,12 @@ span .text_description::after {
 button {
   outline: none;
   cursor: pointer;
+  
 }
 .text_list {
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
+  border: 2px solid transparent;
 }
 
 .text_list:hover {
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border: 2px solid #fff;
 }
