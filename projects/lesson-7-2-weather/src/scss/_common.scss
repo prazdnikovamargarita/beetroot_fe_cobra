@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all .4s ease;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    transition: all 0.1s ease-in;
+    color: $white;
 }
-html, body {
-    min-height: 100vh;
-}
+
 body {
-    font-size: 100%;
+    background-color: $bg-color;
+    border: 20px solid $body-border;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
 }
 a{
     text-decoration: none;

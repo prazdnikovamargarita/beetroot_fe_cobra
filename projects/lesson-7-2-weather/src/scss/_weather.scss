@@ -1,99 +1,70 @@
 .weather{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-    &__head{
-        color: $text-color;
-        font-family: $main-font;
-        font-weight: bold;
-        font-size: 32px;
-        margin: 24px 12%;
-        align-self: start;
-        justify-content: flex-start;
-
-    }
-    &__box{
-        max-width: 100%;
-        min-height: 500px;
-        margin-bottom: 24px;
-        background-color: $background-color;
-        align-items: center;
-        justify-content: center;
-    }
-    &__list{
-        display: flex;
-        flex-wrap: wrap;
-        border: 8px solid $text-color;
-        height: 100%;
-        width: 100%;
-        font-size: 12px;
-        list-style-type: none;
-        
-         
-
-    }
-    &__item-textchange{
-        opacity: 0.7;
-    }
-    &__end{
-        color: $text-color;
-        font-family: $main-font;
-        font-weight: bold;
-        font-size: 15px;
-        margin: 24px 12%;
-        align-self: start;
-        justify-content: flex-start;
-    }
 }
-.weahter__list_item{
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-    border: 2px solid $text-color;
-    color: $text-color;
-    font-family: $main-font;
-    font-size: 22px;
-    padding: 30px 0;
-    min-width: 25%;
-    &:hover {
-        opacity: 0.7;
-    }  
 
-    &:nth-child(1) {
-        background-color: $background-color;
-        min-width: 50%; 
+.weather-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+    font-size: 0;
+    margin-bottom: 20px;
+    background-color: $white;
+    li {
+        display: inline-block;
+        border: $border-style;
+        width: 25%;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 20px;
     }
-    &:nth-child(2) {
-        background-color: $paris-color; 
+    li:nth-child(1) {
+        background-color: $lisbon-color;
+        width: 50%;
     }
-    &:nth-child(3) {
-        background-color: $belgrade-color;  
+    li:nth-child(2) {
+        background-color: $paris-color;
     }
-    &:nth-child(4) {
-        background-color: $moscow-color;   
+    li:nth-child(3) {
+        background-color: $belgrade-color;
     }
-    &:nth-child(5) { 
-        background-color: $telaviv-color;  
+    li:nth-child(4) {
+        background-color: $moskow-color;
     }
-    &:nth-child(6) {
+    li:nth-child(5) {
+        background-color: $telaviv-color;
+    }
+    li:nth-child(6) {
         background-color: $cair-color;
-    }    &:nth-child(7) {
-        background-color: $newyork-color; 
     }
-    &:nth-child(8) {
+    li:nth-child(7) {
+        background-color: $newyork-color;
+    }
+    li:nth-child(8) {
         background-color: $newdelhi-color;
     }
-    &:nth-child(9) {
-        min-width: 50%; 
+    li:nth-child(9) {
         background-color: $sanfrancisco-color;
+        width: 50%;
     }
-    &:nth-child(10) {
-        background-color: $tokyo-color;
+    li:nth-child(10) {
+        background-color: $tokio-color;
     }
-    &:nth-child(11) {
-        width: 100%; 
-        background-color: $sydney-color;
+    li:nth-child(11) {
+        background-color: $sidney-color;
+        width: 100%;
     }
 }
+
+ul:hover li {
+    opacity: 0.7;
+}
+
+ul:hover li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
