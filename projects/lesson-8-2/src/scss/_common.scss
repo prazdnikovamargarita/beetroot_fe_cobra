@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'NeueHansKendrick-Regular';
+    src: url(../assets/fonts/NeueHansKendrick-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .4s ease;
+}
+html, body {
+    min-height: 100vh;
+}
+body{
+    font-family: NeueHansKendrick-Regular;
+    background-color: #cbb9bd;
+}
+ul{
+    list-style: none;
+}
+h4{
+    max-width: 300px;
+}
