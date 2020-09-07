@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "ProximaNovaBlack";
+    src: url("./fonts/ProximaNovaBlack.otf") format("otf"),
+    url("./fonts/ProximaNovaBlack.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ProximaNovaBlack";
+    src: url("./fonts/ProximaNovaBold.otf") format("otf"),
+    url("./fonts/ProximaNovaBold.otf") format("otf");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "ProximaNovaBlack";
+    src: url("/fonts/ProximaNovaCondensedBoldItalic.otf") format("otf"),
+    url("/fonts/ProximaNovaCondensedBoldItalic.otf") format("otf");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: "ProximaNovaBlack";
+    src: url("./fonts/ProximaNovaCondensedBlackItalic.otf") format("otf"),
+    url("./fonts/ProximaNovaCondensedBlackItalic.otf") format("otf");
+    font-weight: normal;
+    font-style: italic;
+}
+    
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    padding: 32px 5%;
+    min-height: 100vh;
+    font-family: "ProximaNovaBlack", sans-serif;
+    font-size: 15px;
+}
+h1{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 25px;
+}
+.thet{
+    position: relative;
+    font-size: 55px;
+    margin: -7px 3px ;
+    height: 60px;
+    display: inline-block;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: rgb(158, 96, 14);
+    border: 1px solid rgb(158, 96, 14);
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: hover .3s ease-in;
+
+}
+a:hover{
+    color: wheat;
+    background-color: rgb(158, 96, 14);;
+}
+.lapki{
+  
+    
+}
+blockquote{
+    box-sizing: border-box;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 0 0 35px 0;
+}
+blockquote::before{
+    content: "“";
+    font-weight: normal;
+    padding: 0px 20px 0 0px;
+    display: block;
+    font-size: 30px;
+    height: 86;
+    float: left;
+    margin: -15px 0;
+
+}
