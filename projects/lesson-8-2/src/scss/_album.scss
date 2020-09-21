@@ -1,9 +1,10 @@
 .album{
-    padding: 50px 125px;
+    padding: 50px 0 0 125px;
     &__list{
         display: flex;
-        min-width: 1221px;
+        min-width: 87vw;
         flex-wrap: wrap;
+        min-height: 100vh;
     }
     &__items{
         margin-right: 19px;
@@ -23,7 +24,7 @@
         &:nth-child(n+2){
             min-height: 541px;
             background-color: white;
-            max-width: 361px;
+            min-width: 361px;
             display: flex;
             flex-direction: column;
             &.album__photos_main-image{
@@ -44,7 +45,7 @@
             }
             &_h4{
                 @include text($title-font-size, 600, $active-font-color);
-                max-width: 433px;
+                min-width: 433px;
             }
             
         }
