@@ -126,7 +126,6 @@
     background-color: white;
     border-radius: 50%;
     
-    
     &:hover {
       cursor: pointer;
       transform: scale(1.4);
@@ -135,9 +134,9 @@
 .card__dot-section {
     width: 80px;
     display: flex;
-    margin-left: 164px;
-    justify-content: space-between;
     
+    justify-content: space-between;
+    padding-right: 56px;
     
     input {
       display: none;
