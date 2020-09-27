@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<title>Form</title>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/fav/favicon.ico">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="forma">
+    <div class="container forma__container">
+      <div class="forma__form-wrapper">
+        <form class="forma__form">
+          <div class="forma__tabs-wrapper">
+            <span class="forma__sign-in">Sign in</span>
+            <span class="forma__join-us">Join us</span>
+          </div>
+          <div class="forma__inputs-wrapper">
+            <label class="forma__label-name" for="username">Username</label>
+            <input class="forma__username" id="username" minlength="3" type="text" name="Username">
+            <label class="forma__label-pas" for="password">Password</label>
+            <input class="forma__password" id="password" required type="password" name="Password">
+            <div class="forma-checkbox-wrapepr">
+              <label class="forma__label-checkbox" for="checkbox">
+                <input class="forma__checkbox" type="checkbox" id="checkbox" name="checkbox" value="agree">
+                <span class="forma__fake-checkbox"></span>
+                Keep me signed in
+              </label>
+            </div>
+          </div>
+          <button class="forma__btn-submit" type="submit">Sign in</button>
+        </form>
+        <div class="forma__help-wrapper">
+          <a href="#" class="forma__forgot">Forgot password</a>
+          <a href="#" class="forma__create">Create an account</a>
+        </div>
+      </div>
+    </div>
+  </section>
+	<script src="js/bundle.js"></script>
+</body>
+</html>
