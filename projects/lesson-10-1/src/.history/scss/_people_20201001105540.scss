@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.people{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+    &__title{
+        font-family: 'Lato', sans-serif;
+        font-size: 56px;
+        position: relative;
+        margin-bottom: 44px;
+        color: #3C3C3C;
+        text-transform: uppercase;
+
+        &::after{
+            display: block;
+            width: 86px;
+            content: "";
+            position: absolute;
+            border-bottom: 2px solid #dddbdb;
+            top: 73px;
+            right: 132px;
+            
+        }
+    }
+    &__undertext{
+        max-width:561px;
+        font-weight: 400;
+        color: #3C3C3C;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 21px;
+    }
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-self: center;
+        justify-self: center;
+        justify-content: center;
+    }
+    &__items{
+        list-style-type: none;
+        margin-right: 15px;
+        
+        position: relative;
+        :last-child{
+            margin-right: 15px;
+        }
+    }
+    
+    h3{
+        margin-bottom: 5px;
+    }
+}
+
+
+.people__portfolip_text{
+        
+    margin-bottom: 20px;
+    }
+.socials-wparrer{
+    display: none;
+    z-index: 10000;
+    right: 50%;
+    display: none;
+    bottom: 50%;
+   
+}
+.fab{
+    margin: 5px;
+    font-size:  43px;
+    color: aqua;
+    cursor: pointer;
+    
+}
+.people__items:hover .socials-wparrer{
+    display: flex;
+    background-color: #00AED9;
+    width: 271px;
+    height: 271px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  
+}
+    
+    

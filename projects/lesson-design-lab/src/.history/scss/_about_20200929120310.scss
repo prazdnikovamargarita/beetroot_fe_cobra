@@ -1,0 +1,141 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 903px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    position:relative;
+    text-align: center;
+    border-right: 2px solid #3c3c3c;
+    border-left: 2px solid #3c3c3c;
+    border-bottom: 2px solid #3c3c3c;
+    &_title{
+        overflow:hidden;
+	margin:0 0px 0 -10px;
+	font-size:2em;
+	line-height:1em;
+    white-space:nowrap;
+    margin: 50px;
+    padding: 50px;
+    position: absolute;
+    bottom: 30%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+
+    
+    &::after{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 40%;
+        background: #3c3c3c;
+        top: 50%;
+    right: -1%;
+
+    }
+    &::before{
+        content: "";
+        
+        top: 50%;
+        right: 60%;
+        border-left: 2px solid #3c3c3c;
+    }
+    
+    }
+}
+.aboutus{
+	position:relative;
+	width:600px;
+	margin:50px;
+	color:rgba(255, 255, 255, .8);
+  text-align:center;
+}
+.aboutus .aboutus_title{
+  text-align:center;
+	overflow:hidden;
+	margin:0 0px 0 0px;
+	font-size:2em;
+	line-height:1em;
+	white-space:nowrap;
+  position:relative;
+}
+.aboutus .aboutus_text{
+	margin:0;
+	padding:15px 30px 30px;
+	font-style:italic;
+}
+.aboutus:before,
+.aboutus:after,
+.aboutus .aboutus_text:after,
+.aboutus .aboutus_title:after,
+.aboutus .aboutus_text:before,
+.aboutus .aboutus_title:before{
+	border:3px solid #3c3c3c;
+}
+.aboutus:before,
+.aboutus:after,
+.aboutus .aboutus_text:after,
+.aboutus .aboutus_text:before{
+	content:"";
+	position:absolute;
+	bottom:0;
+}
+.aboutus:before,
+.aboutus:after{
+	box-sizing:border-box;
+	width:20px;
+}
+.aboutus:before{
+	top:1.2em;
+	right:0;
+	border-left:0;
+}
+.aboutus:after{
+	top: 1em;
+	left:0;
+	border-top:0;
+	border-right:0;
+  
+  
+}
+
+
+.aboutus .aboutus_text:after{
+	right:20px;
+	left:20px;
+}
+.aboutus .aboutus_text:after,
+.aboutus .aboutus_title:after{
+	border-right:0;
+	border-bottom:0;
+	border-left:0;
+}
+.aboutus .aboutus_title:after{
+	content: "";
+        position: absolute;
+        height: 1px;
+        width: 20%;
+        background: #3c3c3c;
+        top: 57%;
+    right: 0%;
+}
+.aboutus .aboutus_title:before{
+	content: "";
+        position: absolute;
+        height: 0px;
+        width: 20%;
+        background: #3c3c3c;
+        top: 50%;
+    left: 0%;
+}

@@ -1,0 +1,192 @@
+$style: "forma";
+.#{$style} {
+    width: 400px;
+    height: 497px;
+  &__form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../img/bg-modal.jpg");
+    background-size: cover;
+    padding: 50px 70px;
+    width: 400px;
+    max-width: 100%;
+    height: 497px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(2, 41, 120, 0.1);
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      background-image: linear-gradient(to top, #3023ae, #c86dd7);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0.8;
+      z-index: 0;
+    }
+  }
+  &__form {
+    margin-bottom: 33px;
+    z-index: 1;
+    
+  }
+  &__tabs-wrapper {
+    font-size: $tabs;
+    margin-bottom: 55px;
+  }
+  &__inputs-wrapper {
+    margin-bottom: 41px;
+  }
+  &__sign-in {
+    color: white;
+    padding-bottom: 4px;
+    margin-right: 25px;
+    border-bottom: 2px solid #E66A64;
+  }
+  &__join-us {
+    color: white;
+    padding-bottom: 4px;
+    &:hover{
+      border-bottom: 2px solid #e66a64;
+      cursor: pointer;
+      
+    }
+  }
+  &__label-name {
+    display: block;
+    font-size: $lable;
+    margin-bottom: 10px;
+  }
+  &__username {
+    display: block;
+    width: 100%;
+    height: 42px;
+    background: none;
+    border: 2px solid;
+    border-color: rgba( #E5EEEE, 0.4);
+    outline: none;
+    padding-left: 10px;
+    color: $G10;
+    font-size: 16px;
+    margin-bottom: 17px;
+    transition: all .3s ease;
+    &:focus {
+      border-color: #23AE92;
+    }
+  }
+  &__label-pas {
+    display: block;
+    font-size: $lable;
+    margin-bottom: 10px;
+  }
+  &__password {
+    display: block;
+    width: 100%;
+    height: 42px;
+    background: none;
+    border: 2px solid;
+    border-color: rgba($G10, 0.4);
+    outline: none;
+    padding-left: 10px;
+    color: $G10;
+    font-size: 16px;
+    margin-bottom: 19px;
+    transition: all .3s ease;
+    &:focus {
+      border-color: $G100;
+    }
+  }
+  &__checkbox {
+    position: absolute;
+    appearance: none;
+    &:checked + .#{$style}__fake-checkbox {
+      background-color: $G100;
+      background-image: url("../img/check.svg");
+    }
+    &:focus + .#{$style}__fake-checkbox {
+      box-shadow: 0 0 0 0.1em $G100,
+      0 0 0 0.2em #39a18d;
+    }
+    &:active + .#{$style}__fake-checkbox {
+      background-color: $G100;
+    }
+    
+  }
+  &__label-checkbox {
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    cursor: pointer;
+  }
+  &__fake-checkbox {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 0 0.1em $G100;
+    margin-left: -26px;
+    transition: all .2s ease;
+  }
+  &__btn-submit {
+    height: 42px;
+    width: 100%;
+    background-color: $G100;
+    border: none;
+    font-size: $btn;
+    color: $W20;
+    font-family: $main-font;
+    font-weight: 600;
+    transition: all .3s ease;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 0 0 0.1em $G100;
+    }
+    &:active {
+      background-color: #05866c;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2em #39a18d;
+    }
+  }
+  &__help-wrapper {
+    font-size: $help-links;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__forgot {
+    color: $W60;
+    font-weight: 400;
+    padding-bottom: 3px;
+    border-bottom: 1px solid;
+    border-color: rgba($W40, 0.15);
+    transition: border-color .3s ease;
+    &:hover {
+      border-color: rgba($W40, 0.5);
+    }
+    &:visited {
+      border-color: rgba($W40, 0.3);
+    }
+  }
+  &__create {
+    color: $W60;
+    font-weight: 400;
+    padding-bottom: 3px;
+    border-bottom: 1px solid;
+    border-color: rgba($W40, 0.15);
+    transition: border-color .3s ease;
+    &:hover {
+      border-color: rgba($W40, 0.5);
+    }
+    &:visited {
+      border-color: rgba($W40, 0.3);
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}

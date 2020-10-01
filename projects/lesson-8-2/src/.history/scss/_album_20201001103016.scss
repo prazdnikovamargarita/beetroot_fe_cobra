@@ -1,0 +1,85 @@
+.album{
+    padding: 50px 0 0 125px;
+    
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        width: 1302px
+    }
+    &__items{
+        margin-right: 19px;
+        margin-bottom: 20px;
+        @include text(center, center);
+
+
+        &:nth-child(2){
+            margin-right: 0;
+        }
+        &:nth-child(n+3){
+            margin-bottom: 0;
+        }
+        &:nth-last-child{
+            margin-right: 0;
+        }
+        &:nth-child(n+2){
+            min-height: 541px;
+            background-color: white;
+            min-width: 361px;
+            display: flex;
+            flex-direction: column;
+            &.album__photos_main-image{
+                padding: 500px;
+            }
+        }
+    }
+    &__photos_active{
+        min-height: 541px;
+        
+
+        &_title{
+            margin: -123px 44px;
+            &_p{
+                @include text($data-font-size, 400, $active-font-color);
+                padding-bottom: 10px;
+                
+            }
+            &_h4{
+                @include text($title-font-size, 600, $active-font-color);
+                min-width: 433px;
+            }
+            
+        }
+
+    }
+    &__photos{   
+        &_title{
+            margin: 28px 29px 70px 26px;
+            p{
+                @include text($data-font-size, 400, $data-font-color);
+                padding-bottom: 10px;
+                
+            }
+            h4{
+                @include text($title-font-size, 600, $main-font-color);
+            }
+            
+        }
+    &_author-image{
+        margin: 0 29px;
+    }
+
+    }
+    &__loading{
+        @include text($data-font-size, 400, $download-font-color);
+        padding: 87px 0;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-content: center;
+        margin: auto;
+        h6{
+            margin: 8px 13px 9px 13px;
+        }
+    }
+}
