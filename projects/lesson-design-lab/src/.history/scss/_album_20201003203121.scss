@@ -1,0 +1,19 @@
+$style: "album";
+.#{$style} {
+    
+    &__wrapper{
+        @include flex(start, flex-start, row, wrap );
+    }
+    &__items{
+        width: 25%;
+        height: 160px;
+        margin-right: 5px;
+        &:nth-child(3n-1){
+            width: 75%;
+        }
+    }
+    img{
+        width: 100%;
+        height: inherit;
+    }
+}

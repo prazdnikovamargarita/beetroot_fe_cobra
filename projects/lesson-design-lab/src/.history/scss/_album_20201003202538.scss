@@ -1,0 +1,13 @@
+$style: "album";
+.#{$style} {
+    @include flex(start, flex-start, row, nowrap );
+    &__wrapper{
+
+    }
+    &__items{
+        width: 25%
+    }
+    img{
+        width:100%;
+    }
+}

@@ -1,0 +1,6 @@
+$style: "footer";
+#{$style} {
+
+    @include flex-row(center, center)
+
+}

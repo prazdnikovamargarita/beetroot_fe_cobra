@@ -1,0 +1,15 @@
+$style: "album";
+.#{$style} {
+    
+    &__wrapper{
+        @include flex(start, flex-start, row, nowrap );
+    }
+    &__items{
+        width: 25%;
+        height: 100%
+    }
+    img{
+        width: 100%;
+        height: inherit;
+    }
+}

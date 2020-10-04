@@ -1,0 +1,4 @@
+$style: "album";
+.#{$style} {
+    @include flex(start, start, row, wrap )
+}

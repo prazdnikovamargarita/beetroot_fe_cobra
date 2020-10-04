@@ -1,0 +1,14 @@
+$style: "footer";
+.#{$style} {
+
+    @include flex-row(center, center);
+&__img{
+    margin-right: 10px;
+}
+    &__text{
+        font-size: 14px;
+    font-weight: 400;
+    color: #3c3c3c;
+    text-align: center;
+    }
+}

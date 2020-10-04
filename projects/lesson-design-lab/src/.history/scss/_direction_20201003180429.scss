@@ -1,0 +1,4 @@
+$style: "direction";
+.#{$style} {
+    @include flex (center, center, column, wrap)
+}

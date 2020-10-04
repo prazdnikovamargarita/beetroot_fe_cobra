@@ -1,0 +1,4 @@
+$style: "description";
+.#{$style} {
+    @include flex (center, center, column, wrap)
+}

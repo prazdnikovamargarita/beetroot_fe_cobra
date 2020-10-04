@@ -1,0 +1,11 @@
+$style: "direction";
+.#{$style} {
+    @include flex (center, center, column, wrap);
+
+    &__title{
+        @include text ($large-text,700,$dark);
+        
+        text-transform: uppercase;
+        letter-spacing: 8.95px;
+    }
+}
