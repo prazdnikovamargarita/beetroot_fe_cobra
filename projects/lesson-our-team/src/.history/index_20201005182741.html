@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<title>Title</title>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/fav/favicon.ico">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+	<section class="main">
+		<p class="main__text">THE GENIUSES BEHIND OUR WORK</p>
+		<h1 class="main__title">
+			OUR TEAM
+		</h1>
+		<div class="main__img">
+			<img src="./img/icon.png" alt="">
+		</div>
+	
+	</section>
+	<div class="slider">
+                  <div class="slider__wrapper">
+                    <div class="slider__items">
+                      <div class="slider__item slider__item_1">
+                        <div class="slider__item_inner">
+                          <div class="slider__item_wrapper">
+                            <div class="slider__item_img">
+                              <img src="./img/face.png" alt="">
+                              <div class="slider__item_img_bottom-conners"></div>
+                            </div>
+                            <div class="slider__items_description">
+                              <h2 class="slider__items_title">Sahariar Kabir</h2>
+                              <h3 class="slider__items_second_title">Frontend Developer</h3>
+                              <ul class="slider__items_description__social-list">
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KKQxUFdcFAAACHElEQVQ4y5XVwUtUYRTG4efeNMyNo6ZRSze5yYUiEjRFkrrXsPZBkpFObRLc2qJNjZWp9Q+klEvBUUScVagtbBMILovUwWlVGGKLSdKZazpnd895f/dwvvPd9wbLCqJUhzbN6sSQtW7JrBm/84VBHhyT0Kum8I22jEjKHg3flnQOn72X9kUG1erF3XQJ3yW8i4JPeeke0galIzrHDbmKUQ/sHoZPmdTpl4Q39kRH4K6kMlO6c3j4t5DUKavV+JEoe8a12tZp+GDnW9756bqPjo8W88rdNpHrHPMCj06E8tFDvBDLwQm10sYjhE1m7dnz+FD2rbRaCUKn9WIwctZJNyJnH0Sv0yXa1ViNXE6TOgxYsZ5XSVvVoD3UjqnI6SrBirkCmA/oKNGIxQiwSdPf/qwX4ItoDJY31LjgW17xhtkDTwOe5tXP+2ozVIHMMetZKchkUBEeIZ8TaANtAnPRotAPVCs2qvEjtIb6ouGLWAutIF40fBWfQil0FQ13IRVKyWhwpSg0rsGmmdCOVxgSFEjmBJEnHXiC13ZCJG24pufEfe+I25TMfZJZfXim5URoi2H0ye7b0IQRZ0y7fCx62bRyIzkP3b9h/aZUmdcTMfu/WXvMqzKlP5fYh3d1G1VmzMIRW49bMKbM6L53Fpr+sFr/TH8LZw+Y/ob+aNPPRcxD9yPvesaI5//73eSiVId2zepUYtu6JSkpO/nCP/B0maUvdCQqAAAAAElFTkSuQmCC"></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KKjfOM23iAAACT0lEQVQ4y43Vv2sUeRjH8deMKNHGjbmNKFZrcTY2BgmCG1HWpI9nzl4w3IlmtTnh2hTa6EaNMfEf8BcphcseuSNrI24O9JoDIZUoJoZdKyUiuWKycWd2kuyn+n6f53l/f89ngqoWbTfgtKNyMqhb8FLZH74mC4MEnFH0q2zriD4aV1LfGD6nZC/+9VTFf5bR5ZC8nxzGB0UP0+Bt7vgFFb+rpMycN6oPEy75Foe3eWzQF0VTVqUrcEFJh2lDER6uJUoG1Z0yuSHKqkmn1Awaa575Zw99dtILW6vXrF3OeRTNnHEbV9tCeeEKbstEcFG3ism2UHhgTrciQXWHt7L6Uk94Ix1XseRAqF/W6xia07ne7lG2qqzgt6aK517J6g/1Yzo27lllubX2dQUUlHU2DRkRA6EjmIvBNT2qrsuhsB6dUmuqmcORoLooa7/3TYkek3pa9hnEevu8sxTajeVYojMF/TPRX8bukJTCG7ElpsEg9AldiehC7HComUpUdOFT6A0OJVJTrplv6g+1rORHvAnNIx9L5BRYv6yaoZRF9+Gf0AzOJFJnXdCJedcc9CRlu4OYCao7vNMl77n2tf48V9zFaOIeN1NgFPeshChZdMJw2/B5JywpRZ9k3WXc1NsW2msMl9UbNvTIuJ2eObYleswzu4xHHtp4YSOm7TFreJO9B4bN2mPaSBRowN8MmdDhvr8Tt95Q3l/u6zDR8M5W0x/T7bvpf8QPTaa/aCTd9CNlXHGx5a3DsnG3NvvdRNpuQL+ja3ZUs+ClGTNWkoX/AxKopFGVlZSIAAAAAElFTkSuQmCC"></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KLAO53T7RAAACh0lEQVQ4y43VsW9bVRTH8Y/dNApdaic0CMT0ENAFVWpaRZVwq1ahWWAJ1HRHakQQjcuSShm6ZHCW4hRC6vIPtDHyglSJxAooZqkaIwRLUSWPRSQN9gYKqsLgxHnPfk3zG95wzvnec4/uvb+XWNOlw0a957RACk11Dy37wX+dhYkOOCVnwrHuFT01r6D5fPiyglfwu+9UPbKJAcdlfOQd/CXnbhx8yFc+RdW0akznjBlnseBzz6LwIYvG/Cvnjm3xSriioE9ZtoUndxIFY5ouKD4XZVvRBQ1j5sKdP3bXP8574MUatuKIy+61OqfcwhcHQnngGm5JteCcQVXFUEHalLy/bVt2qQv/1qpBOZJ6TWA6MuuymutOoaIUM/s0JvQm1t73vd+cCCWvKEqARSP6Yzf/qxM+SLqIciSRRgBq7UjQAZcxmnQSq5FECXkQmAVDXZOv4mSPt/AokqjLmrKogVmBSwIBSurtmj/wZo+j2OxYt6RkxLIsGjubr2mEKjZxtGefE20oSrujAjvfiBJr6455zZ+h2JC8mgryhrwR2uyeXvXERtJjHI8kFlVcV1FxSi3mksDbeJxUQyYUHhG0j4hSZNI9ncUvSUv4MBSuachLt8+3FAuPYSmx1uuJARk/h2aeMqKmrmE2tvO7qja83mPL126Ycb59u2uy9lPCDL6xlUTBunPGHVSfOGdDofUkm67ipuEDocPmcFVz14bumfeS+868ED3jviPmWx6662GTyvqtGN95jPGzjlvRr2yyFdiFn8la0Oe2nyKnvqeMH93WZ2HXO7tNf86gPdN/ipdDpr9uMt70W0q55jMDMZ03zftyv99NS4eNuui0QBoNdQ8tWbLVWfg/p/K8JjXiaRwAAAAASUVORK5CYII="></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KLQFOyG68AAACMElEQVQ4y5XVzUtUYRTH8c/cXrA2jlq2L3rZZJCJCE1RVG5qY6/7QMkopzYtXFTQpk2NhZj2D2gvbgKhmZBq2kRjUG0KyX3aMNOqKMIWV2mu86L+4HK555zvPc/hPs/vxnLKtE6no9psFUfRjHcynvuztDC2BI5L6rW5/I2+G5RSrA6fk7IFnzyR9VkeTXZJOGU3vkkarQSvcd8FZPXLVuiccMsBDLnkbxRe45EuvySNmFdZMd1S6ow7E+LBQiKlS9Fhw1VR5g07rKDLQGnns0b9dMhby6vdpI3OGQs7x93D1RWhvHUF98RDOKlZ1vCKUHgoq1mSwHq96C+ZtVtGdw14Xj96rY/ljnvmoz0lyZxWM7bV7P5BixOBYxiPJEa8cHuZpT9F51p78XoJPBJ5PoIphUjsNfYGduBzJJExL7Nwz8nJyPiqNVLzBdsD9chXXV6rBlNocC0Sz6M+UFsF++zzGKfLk4EfaKoKh7NOlcWb8CMwjV1Wq52YDkwhsWr4AN4H0ji5avgk0mul5bXY703JnNGLghcRNKHFnOexHDdc98qhGic5qphXEm66ESBl1kE9K17yeQlzUuGRLLqMO9pXhLYbwGXFRRsaM2iDCR3Loh0mbDQYeujiDuszrtGkHrEas/aY1GhcXxhYhP86Y0idB15W+eoJLz1QZ2jRO8tNf0Cz/6b/HZtKTH9WX2XTDxV3xcWKez1v0N1av5tQ63Q6ps1WDSiY8U5a2u+lhf8Ag0qjvZ2IgtUAAAAASUVORK5CYII="></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="slider__items_description__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus dui sit amet ligula efficitur, sit amet lacinia massa dictum. Etiam accumsan felis a nunc facilisis, ut euismod lacus placerat. Praesent rutrum eget massa a convallis. Nam vitae augue malesuada, accumsan mauris ut, consectetur.
+                            </p>
+                            <div class="card-team-descript__dashed-line"></div>
+                            <button class="slider__items_description__btn">VIEW PROFILE</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slider__item slider__item_2">
+                        <div class="slider__item_inner">
+                          <div class="slider__item_wrapper">
+                            <div class="slider__item_img">
+                              <img src="./lesson-our-team/src/img/face.png" alt="">
+                              <div class="slider__item_img_bottom-conners"></div>
+                            </div>
+                            <div class="slider__items_description">
+                              <h2 class="slider__items_title">Sahariar Kabir</h2>
+                              <h3 class="slider__items_second_title">Frontend Developer</h3>
+                              <ul class="slider__items_description__social-list">
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KKQxUFdcFAAACHElEQVQ4y5XVwUtUYRTG4efeNMyNo6ZRSze5yYUiEjRFkrrXsPZBkpFObRLc2qJNjZWp9Q+klEvBUUScVagtbBMILovUwWlVGGKLSdKZazpnd895f/dwvvPd9wbLCqJUhzbN6sSQtW7JrBm/84VBHhyT0Kum8I22jEjKHg3flnQOn72X9kUG1erF3XQJ3yW8i4JPeeke0galIzrHDbmKUQ/sHoZPmdTpl4Q39kRH4K6kMlO6c3j4t5DUKavV+JEoe8a12tZp+GDnW9756bqPjo8W88rdNpHrHPMCj06E8tFDvBDLwQm10sYjhE1m7dnz+FD2rbRaCUKn9WIwctZJNyJnH0Sv0yXa1ViNXE6TOgxYsZ5XSVvVoD3UjqnI6SrBirkCmA/oKNGIxQiwSdPf/qwX4ItoDJY31LjgW17xhtkDTwOe5tXP+2ozVIHMMetZKchkUBEeIZ8TaANtAnPRotAPVCs2qvEjtIb6ouGLWAutIF40fBWfQil0FQ13IRVKyWhwpSg0rsGmmdCOVxgSFEjmBJEnHXiC13ZCJG24pufEfe+I25TMfZJZfXim5URoi2H0ye7b0IQRZ0y7fCx62bRyIzkP3b9h/aZUmdcTMfu/WXvMqzKlP5fYh3d1G1VmzMIRW49bMKbM6L53Fpr+sFr/TH8LZw+Y/ob+aNPPRcxD9yPvesaI5//73eSiVId2zepUYtu6JSkpO/nCP/B0maUvdCQqAAAAAElFTkSuQmCC"></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KKjfOM23iAAACT0lEQVQ4y43Vv2sUeRjH8deMKNHGjbmNKFZrcTY2BgmCG1HWpI9nzl4w3IlmtTnh2hTa6EaNMfEf8BcphcseuSNrI24O9JoDIZUoJoZdKyUiuWKycWd2kuyn+n6f53l/f89ngqoWbTfgtKNyMqhb8FLZH74mC4MEnFH0q2zriD4aV1LfGD6nZC/+9VTFf5bR5ZC8nxzGB0UP0+Bt7vgFFb+rpMycN6oPEy75Foe3eWzQF0VTVqUrcEFJh2lDER6uJUoG1Z0yuSHKqkmn1Awaa575Zw99dtILW6vXrF3OeRTNnHEbV9tCeeEKbstEcFG3ism2UHhgTrciQXWHt7L6Uk94Ix1XseRAqF/W6xia07ne7lG2qqzgt6aK517J6g/1Yzo27lllubX2dQUUlHU2DRkRA6EjmIvBNT2qrsuhsB6dUmuqmcORoLooa7/3TYkek3pa9hnEevu8sxTajeVYojMF/TPRX8bukJTCG7ElpsEg9AldiehC7HComUpUdOFT6A0OJVJTrplv6g+1rORHvAnNIx9L5BRYv6yaoZRF9+Gf0AzOJFJnXdCJedcc9CRlu4OYCao7vNMl77n2tf48V9zFaOIeN1NgFPeshChZdMJw2/B5JywpRZ9k3WXc1NsW2msMl9UbNvTIuJ2eObYleswzu4xHHtp4YSOm7TFreJO9B4bN2mPaSBRowN8MmdDhvr8Tt95Q3l/u6zDR8M5W0x/T7bvpf8QPTaa/aCTd9CNlXHGx5a3DsnG3NvvdRNpuQL+ja3ZUs+ClGTNWkoX/AxKopFGVlZSIAAAAAElFTkSuQmCC"></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KLAO53T7RAAACh0lEQVQ4y43VsW9bVRTH8Y/dNApdaic0CMT0ENAFVWpaRZVwq1ahWWAJ1HRHakQQjcuSShm6ZHCW4hRC6vIPtDHyglSJxAooZqkaIwRLUSWPRSQN9gYKqsLgxHnPfk3zG95wzvnec4/uvb+XWNOlw0a957RACk11Dy37wX+dhYkOOCVnwrHuFT01r6D5fPiyglfwu+9UPbKJAcdlfOQd/CXnbhx8yFc+RdW0akznjBlnseBzz6LwIYvG/Cvnjm3xSriioE9ZtoUndxIFY5ouKD4XZVvRBQ1j5sKdP3bXP8574MUatuKIy+61OqfcwhcHQnngGm5JteCcQVXFUEHalLy/bVt2qQv/1qpBOZJ6TWA6MuuymutOoaIUM/s0JvQm1t73vd+cCCWvKEqARSP6Yzf/qxM+SLqIciSRRgBq7UjQAZcxmnQSq5FECXkQmAVDXZOv4mSPt/AokqjLmrKogVmBSwIBSurtmj/wZo+j2OxYt6RkxLIsGjubr2mEKjZxtGefE20oSrujAjvfiBJr6455zZ+h2JC8mgryhrwR2uyeXvXERtJjHI8kFlVcV1FxSi3mksDbeJxUQyYUHhG0j4hSZNI9ncUvSUv4MBSuachLt8+3FAuPYSmx1uuJARk/h2aeMqKmrmE2tvO7qja83mPL126Ycb59u2uy9lPCDL6xlUTBunPGHVSfOGdDofUkm67ipuEDocPmcFVz14bumfeS+868ED3jviPmWx6662GTyvqtGN95jPGzjlvRr2yyFdiFn8la0Oe2nyKnvqeMH93WZ2HXO7tNf86gPdN/ipdDpr9uMt70W0q55jMDMZ03zftyv99NS4eNuui0QBoNdQ8tWbLVWfg/p/K8JjXiaRwAAAAASUVORK5CYII="></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KLQFOyG68AAACMElEQVQ4y5XVzUtUYRTH8c/cXrA2jlq2L3rZZJCJCE1RVG5qY6/7QMkopzYtXFTQpk2NhZj2D2gvbgKhmZBq2kRjUG0KyX3aMNOqKMIWV2mu86L+4HK555zvPc/hPs/vxnLKtE6no9psFUfRjHcynvuztDC2BI5L6rW5/I2+G5RSrA6fk7IFnzyR9VkeTXZJOGU3vkkarQSvcd8FZPXLVuiccMsBDLnkbxRe45EuvySNmFdZMd1S6ow7E+LBQiKlS9Fhw1VR5g07rKDLQGnns0b9dMhby6vdpI3OGQs7x93D1RWhvHUF98RDOKlZ1vCKUHgoq1mSwHq96C+ZtVtGdw14Xj96rY/ljnvmoz0lyZxWM7bV7P5BixOBYxiPJEa8cHuZpT9F51p78XoJPBJ5PoIphUjsNfYGduBzJJExL7Nwz8nJyPiqNVLzBdsD9chXXV6rBlNocC0Sz6M+UFsF++zzGKfLk4EfaKoKh7NOlcWb8CMwjV1Wq52YDkwhsWr4AN4H0ji5avgk0mul5bXY703JnNGLghcRNKHFnOexHDdc98qhGic5qphXEm66ESBl1kE9K17yeQlzUuGRLLqMO9pXhLYbwGXFRRsaM2iDCR3Loh0mbDQYeujiDuszrtGkHrEas/aY1GhcXxhYhP86Y0idB15W+eoJLz1QZ2jRO8tNf0Cz/6b/HZtKTH9WX2XTDxV3xcWKez1v0N1av5tQ63Q6ps1WDSiY8U5a2u+lhf8Ag0qjvZ2IgtUAAAAASUVORK5CYII="></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="slider__items_description__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus dui sit amet ligula efficitur, sit amet lacinia massa dictum. Etiam accumsan felis a nunc facilisis, ut euismod lacus placerat. Praesent rutrum eget massa a convallis. Nam vitae augue malesuada, accumsan mauris ut, consectetur.
+                            </p>
+                            <div class="card-team-descript__dashed-line"></div>
+                            <button class="slider__items_description__btn">VIEW PROFILE</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slider__item slider__item_3">
+                        <div class="slider__item_inner">
+                          <div class="slider__item_wrapper">
+                            <div class="slider__item_img">
+                              <img src="./lesson-our-team/src/img/face.png" alt="">
+                              <div class="slider__item_img_bottom_coners">
+
+                              </div>
+                            </div>
+                            <div class="slider__items_description">
+                              <h2 class="slider__items_title">Sahariar Kabir</h2>
+                              <h3 class="slider__items_second_title">Frontend Developer</h3>
+                              <ul class="slider__items_description__social-list">
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KKQxUFdcFAAACHElEQVQ4y5XVwUtUYRTG4efeNMyNo6ZRSze5yYUiEjRFkrrXsPZBkpFObRLc2qJNjZWp9Q+klEvBUUScVagtbBMILovUwWlVGGKLSdKZazpnd895f/dwvvPd9wbLCqJUhzbN6sSQtW7JrBm/84VBHhyT0Kum8I22jEjKHg3flnQOn72X9kUG1erF3XQJ3yW8i4JPeeke0galIzrHDbmKUQ/sHoZPmdTpl4Q39kRH4K6kMlO6c3j4t5DUKavV+JEoe8a12tZp+GDnW9756bqPjo8W88rdNpHrHPMCj06E8tFDvBDLwQm10sYjhE1m7dnz+FD2rbRaCUKn9WIwctZJNyJnH0Sv0yXa1ViNXE6TOgxYsZ5XSVvVoD3UjqnI6SrBirkCmA/oKNGIxQiwSdPf/qwX4ItoDJY31LjgW17xhtkDTwOe5tXP+2ozVIHMMetZKchkUBEeIZ8TaANtAnPRotAPVCs2qvEjtIb6ouGLWAutIF40fBWfQil0FQ13IRVKyWhwpSg0rsGmmdCOVxgSFEjmBJEnHXiC13ZCJG24pufEfe+I25TMfZJZfXim5URoi2H0ye7b0IQRZ0y7fCx62bRyIzkP3b9h/aZUmdcTMfu/WXvMqzKlP5fYh3d1G1VmzMIRW49bMKbM6L53Fpr+sFr/TH8LZw+Y/ob+aNPPRcxD9yPvesaI5//73eSiVId2zepUYtu6JSkpO/nCP/B0maUvdCQqAAAAAElFTkSuQmCC"></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KKjfOM23iAAACT0lEQVQ4y43Vv2sUeRjH8deMKNHGjbmNKFZrcTY2BgmCG1HWpI9nzl4w3IlmtTnh2hTa6EaNMfEf8BcphcseuSNrI24O9JoDIZUoJoZdKyUiuWKycWd2kuyn+n6f53l/f89ngqoWbTfgtKNyMqhb8FLZH74mC4MEnFH0q2zriD4aV1LfGD6nZC/+9VTFf5bR5ZC8nxzGB0UP0+Bt7vgFFb+rpMycN6oPEy75Foe3eWzQF0VTVqUrcEFJh2lDER6uJUoG1Z0yuSHKqkmn1Awaa575Zw99dtILW6vXrF3OeRTNnHEbV9tCeeEKbstEcFG3ism2UHhgTrciQXWHt7L6Uk94Ix1XseRAqF/W6xia07ne7lG2qqzgt6aK517J6g/1Yzo27lllubX2dQUUlHU2DRkRA6EjmIvBNT2qrsuhsB6dUmuqmcORoLooa7/3TYkek3pa9hnEevu8sxTajeVYojMF/TPRX8bukJTCG7ElpsEg9AldiehC7HComUpUdOFT6A0OJVJTrplv6g+1rORHvAnNIx9L5BRYv6yaoZRF9+Gf0AzOJFJnXdCJedcc9CRlu4OYCao7vNMl77n2tf48V9zFaOIeN1NgFPeshChZdMJw2/B5JywpRZ9k3WXc1NsW2msMl9UbNvTIuJ2eObYleswzu4xHHtp4YSOm7TFreJO9B4bN2mPaSBRowN8MmdDhvr8Tt95Q3l/u6zDR8M5W0x/T7bvpf8QPTaa/aCTd9CNlXHGx5a3DsnG3NvvdRNpuQL+ja3ZUs+ClGTNWkoX/AxKopFGVlZSIAAAAAElFTkSuQmCC"></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KLAO53T7RAAACh0lEQVQ4y43VsW9bVRTH8Y/dNApdaic0CMT0ENAFVWpaRZVwq1ahWWAJ1HRHakQQjcuSShm6ZHCW4hRC6vIPtDHyglSJxAooZqkaIwRLUSWPRSQN9gYKqsLgxHnPfk3zG95wzvnec4/uvb+XWNOlw0a957RACk11Dy37wX+dhYkOOCVnwrHuFT01r6D5fPiyglfwu+9UPbKJAcdlfOQd/CXnbhx8yFc+RdW0akznjBlnseBzz6LwIYvG/Cvnjm3xSriioE9ZtoUndxIFY5ouKD4XZVvRBQ1j5sKdP3bXP8574MUatuKIy+61OqfcwhcHQnngGm5JteCcQVXFUEHalLy/bVt2qQv/1qpBOZJ6TWA6MuuymutOoaIUM/s0JvQm1t73vd+cCCWvKEqARSP6Yzf/qxM+SLqIciSRRgBq7UjQAZcxmnQSq5FECXkQmAVDXZOv4mSPt/AokqjLmrKogVmBSwIBSurtmj/wZo+j2OxYt6RkxLIsGjubr2mEKjZxtGefE20oSrujAjvfiBJr6455zZ+h2JC8mgryhrwR2uyeXvXERtJjHI8kFlVcV1FxSi3mksDbeJxUQyYUHhG0j4hSZNI9ncUvSUv4MBSuachLt8+3FAuPYSmx1uuJARk/h2aeMqKmrmE2tvO7qja83mPL126Ycb59u2uy9lPCDL6xlUTBunPGHVSfOGdDofUkm67ipuEDocPmcFVz14bumfeS+868ED3jviPmWx6662GTyvqtGN95jPGzjlvRr2yyFdiFn8la0Oe2nyKnvqeMH93WZ2HXO7tNf86gPdN/ipdDpr9uMt70W0q55jMDMZ03zftyv99NS4eNuui0QBoNdQ8tWbLVWfg/p/K8JjXiaRwAAAAASUVORK5CYII="></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="slider__items_description__social-list-item">
+                                    <a href="#" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+                                            <image x="0px" y="0px" width="30px" height="30px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCQ8KLQFOyG68AAACMElEQVQ4y5XVzUtUYRTH8c/cXrA2jlq2L3rZZJCJCE1RVG5qY6/7QMkopzYtXFTQpk2NhZj2D2gvbgKhmZBq2kRjUG0KyX3aMNOqKMIWV2mu86L+4HK555zvPc/hPs/vxnLKtE6no9psFUfRjHcynvuztDC2BI5L6rW5/I2+G5RSrA6fk7IFnzyR9VkeTXZJOGU3vkkarQSvcd8FZPXLVuiccMsBDLnkbxRe45EuvySNmFdZMd1S6ow7E+LBQiKlS9Fhw1VR5g07rKDLQGnns0b9dMhby6vdpI3OGQs7x93D1RWhvHUF98RDOKlZ1vCKUHgoq1mSwHq96C+ZtVtGdw14Xj96rY/ljnvmoz0lyZxWM7bV7P5BixOBYxiPJEa8cHuZpT9F51p78XoJPBJ5PoIphUjsNfYGduBzJJExL7Nwz8nJyPiqNVLzBdsD9chXXV6rBlNocC0Sz6M+UFsF++zzGKfLk4EfaKoKh7NOlcWb8CMwjV1Wq52YDkwhsWr4AN4H0ji5avgk0mul5bXY703JnNGLghcRNKHFnOexHDdc98qhGic5qphXEm66ESBl1kE9K17yeQlzUuGRLLqMO9pXhLYbwGXFRRsaM2iDCR3Loh0mbDQYeujiDuszrtGkHrEas/aY1GhcXxhYhP86Y0idB15W+eoJLz1QZ2jRO8tNf0Cz/6b/HZtKTH9WX2XTDxV3xcWKez1v0N1av5tQ63Q6ps1WDSiY8U5a2u+lhf8Ag0qjvZ2IgtUAAAAASUVORK5CYII="></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="slider__items_description__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus dui sit amet ligula efficitur, sit amet lacinia massa dictum. Etiam accumsan felis a nunc facilisis, ut euismod lacus placerat. Praesent rutrum eget massa a convallis. Nam vitae augue malesuada, accumsan mauris ut, consectetur.
+                            </p>
+                            <div class="card-team-descript__dashed-line"></div>
+                            <button class="slider__items_description__btn">VIEW PROFILE</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <a class="slider__control slider__control_prev" href="#" role="button"></a>
+                  <a class="slider__control slider__control_next" href="#" role="button"></a>
+                </div>
+              
+                <script>
+                  'use strict';
+                  var slideShow = (function () {
+                    return function (selector, config) {
+                      var
+                        _slider = document.querySelector(selector), // основный элемент блока
+                        _sliderContainer = _slider.querySelector('.slider__items'), // контейнер для .slider-item
+                        _sliderItems = _slider.querySelectorAll('.slider__item'), // коллекция .slider-item
+                        _sliderControls = _slider.querySelectorAll('.slider__control'), // элементы управления
+                        _currentPosition = 0, // позиция левого активного элемента
+                        _transformValue = 0, // значение транфсофрмации .slider_wrapper
+                        _transformStep = 100, // величина шага (для трансформации)
+                        _itemsArray = [], // массив элементов
+                        _timerId,
+                        _indicatorItems,
+                        _indicatorIndex = 0,
+                        _indicatorIndexMax = _sliderItems.length - 1,
+                        _stepTouch = 50,
+                        _config = {
+                          isAutoplay: false, // автоматическая смена слайдов
+                          directionAutoplay: 'next', // направление смены слайдов
+                          delayAutoplay: 5000, // интервал между автоматической сменой слайдов
+                          isPauseOnHover: true // устанавливать ли паузу при поднесении курсора к слайдеру
+                        };
+              
+                      // настройка конфигурации слайдера в зависимости от полученных ключей
+                      for (var key in config) {
+                        if (key in _config) {
+                          _config[key] = config[key];
+                        }
+                      }
+              
+                      // наполнение массива _itemsArray
+                      for (var i = 0, length = _sliderItems.length; i < length; i++) {
+                        _itemsArray.push({ item: _sliderItems[i], position: i, transform: 0 });
+                      }
+              
+                      // переменная position содержит методы с помощью которой можно получить минимальный и максимальный индекс элемента, а также соответствующему этому индексу позицию
+                      var position = {
+                        getItemIndex: function (mode) {
+                          var index = 0;
+                          for (var i = 0, length = _itemsArray.length; i < length; i++) {
+                            if ((_itemsArray[i].position < _itemsArray[index].position && mode === 'min') || (_itemsArray[i].position > _itemsArray[index].position && mode === 'max')) {
+                              index = i;
+                            }
+                          }
+                          return index;
+                        },
+                        getItemPosition: function (mode) {
+                          return _itemsArray[position.getItemIndex(mode)].position;
+                        }
+                      };
+              
+                      // функция, выполняющая смену слайда в указанном направлении
+                      var _move = function (direction) {
+                        var nextItem, currentIndicator = _indicatorIndex;;
+                        if (direction === 'next') {
+                          _currentPosition++;
+                          if (_currentPosition > position.getItemPosition('max')) {
+                            nextItem = position.getItemIndex('min');
+                            _itemsArray[nextItem].position = position.getItemPosition('max') + 1;
+                            _itemsArray[nextItem].transform += _itemsArray.length * 100;
+                            _itemsArray[nextItem].item.style.transform = 'translateX(' + _itemsArray[nextItem].transform + '%)';
+                          }
+                          _transformValue -= _transformStep;
+                          _indicatorIndex = _indicatorIndex + 1;
+                          if (_indicatorIndex > _indicatorIndexMax) {
+                            _indicatorIndex = 0;
+                          }
+                        } else {
+                          _currentPosition--;
+                          if (_currentPosition < position.getItemPosition('min')) {
+                            nextItem = position.getItemIndex('max');
+                            _itemsArray[nextItem].position = position.getItemPosition('min') - 1;
+                            _itemsArray[nextItem].transform -= _itemsArray.length * 100;
+                            _itemsArray[nextItem].item.style.transform = 'translateX(' + _itemsArray[nextItem].transform + '%)';
+                          }
+                          _transformValue += _transformStep;
+                          _indicatorIndex = _indicatorIndex - 1;
+                          if (_indicatorIndex < 0) {
+                            _indicatorIndex = _indicatorIndexMax;
+                          }
+                        }
+                        _sliderContainer.style.transform = 'translateX(' + _transformValue + '%)';
+                        _indicatorItems[currentIndicator].classList.remove('active');
+                        _indicatorItems[_indicatorIndex].classList.add('active');
+                      };
+              
+                      // функция, осуществляющая переход к слайду по его порядковому номеру
+                      var _moveTo = function (index) {
+                        var i = 0, direction = (index > _indicatorIndex) ? 'next' : 'prev';
+                        while (index !== _indicatorIndex && i <= _indicatorIndexMax) {
+                          _move(direction);
+                          i++;
+                        }
+                      };
+              
+                      // функция для запуска автоматической смены слайдов через промежутки времени
+                      var _startAutoplay = function () {
+                        if (!_config.isAutoplay) {
+                          return;
+                        }
+                        _stopAutoplay();
+                        _timerId = setInterval(function () {
+                          _move(_config.directionAutoplay);
+                        }, _config.delayAutoplay);
+                      };
+              
+                      // функция, отключающая автоматическую смену слайдов
+                      var _stopAutoplay = function () {
+                        clearInterval(_timerId);
+                      };
+              
+                      // функция, добавляющая индикаторы к слайдеру
+                      var _addIndicators = function () {
+                        var indicatorsContainer = document.createElement('ol');
+                        indicatorsContainer.classList.add('slider__indicators');
+                        for (var i = 0, length = _sliderItems.length; i < length; i++) {
+                          var sliderIndicatorsItem = document.createElement('li');
+                          if (i === 0) {
+                            sliderIndicatorsItem.classList.add('active');
+                          }
+                          sliderIndicatorsItem.setAttribute("data-slide-to", i);
+                          indicatorsContainer.appendChild(sliderIndicatorsItem);
+                        }
+                        _slider.appendChild(indicatorsContainer);
+                        _indicatorItems = _slider.querySelectorAll('.slider__indicators > li')
+                      };
+              
+                      var _isTouchDevice = function () {
+                        return !!('ontouchstart' in window || navigator.maxTouchPoints);
+                      };
+              
+                      // функция, осуществляющая установку обработчиков для событий 
+                      var _setUpListeners = function () {
+                        var _startX = 0;
+                        if (_isTouchDevice()) {
+                          _slider.addEventListener('touchstart', function (e) {
+                            _startX = e.changedTouches[0].clientX;
+                            _startAutoplay();
+                          });
+                          _slider.addEventListener('touchend', function (e) {
+                            var
+                              _endX = e.changedTouches[0].clientX,
+                              _deltaX = _endX - _startX;
+                            if (_deltaX > _stepTouch) {
+                              _move('prev');
+                            } else if (_deltaX < -_stepTouch) {
+                              _move('next');
+                            }
+                            _startAutoplay();
+                          });
+                        } else {
+                          for (var i = 0, length = _sliderControls.length; i < length; i++) {
+                            _sliderControls[i].classList.add('slider__control_show');
+                          }
+                        }
+                        _slider.addEventListener('click', function (e) {
+                          if (e.target.classList.contains('slider__control')) {
+                            e.preventDefault();
+                            _move(e.target.classList.contains('slider__control_next') ? 'next' : 'prev');
+                            _startAutoplay();
+                          } else if (e.target.getAttribute('data-slide-to')) {
+                            e.preventDefault();
+                            _moveTo(parseInt(e.target.getAttribute('data-slide-to')));
+                            _startAutoplay();
+                          }
+                        });
+                        document.addEventListener('visibilitychange', function () {
+                          if (document.visibilityState === "hidden") {
+                            _stopAutoplay();
+                          } else {
+                            _startAutoplay();
+                          }
+                        }, false);
+                        if (_config.isPauseOnHover && _config.isAutoplay) {
+                          _slider.addEventListener('mouseenter', function () {
+                            _stopAutoplay();
+                          });
+                          _slider.addEventListener('mouseleave', function () {
+                            _startAutoplay();
+                          });
+                        }
+                      };
+              
+                      // добавляем индикаторы к слайдеру
+                      _addIndicators();
+                      // установливаем обработчики для событий
+                      _setUpListeners();
+                      // запускаем автоматическую смену слайдов, если установлен соответствующий ключ
+                      _startAutoplay();
+              
+                      return {
+                        // метод слайдера для перехода к следующему слайду
+                        next: function () {
+                          _move('next');
+                        },
+                        // метод слайдера для перехода к предыдущему слайду          
+                        left: function () {
+                          _move('prev');
+                        },
+                        // метод отключающий автоматическую смену слайдов
+                        stop: function () {
+                          _config.isAutoplay = false;
+                          _stopAutoplay();
+                        },
+                        // метод запускающий автоматическую смену слайдов
+                        cycle: function () {
+                          _config.isAutoplay = true;
+                          _startAutoplay();
+                        }
+                      }
+                    }
+                  }());
+              
+                  slideShow('.slider', {
+                    isAutoplay: true
+                  });
+                </script>
+	<script src="js/bundle.js"></script>
+
+</body>
+</html>

@@ -50,11 +50,3 @@ ul {
     padding: 0 15px;
     margin: 0 auto;
 }
-@media only screen and (min-width: 480px) {
-  .description__text-wrapper::before{
-    width: 5%;
-  }
-  .description__text-wrapper::after{
-    width: 5%;
-  }
-}

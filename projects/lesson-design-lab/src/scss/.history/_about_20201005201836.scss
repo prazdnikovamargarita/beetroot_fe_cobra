@@ -111,19 +111,11 @@ $style: "description";
         margin-bottom:80px;
     }
 }   
-@media only screen and (max-width: 670px) {
-    .description__text-wrapper::before{
-      width: 15%;
-    }
-    .description__text-wrapper::after{
-      width: 15%;
-    }
-  }
 @media only screen and (max-width: 480px) {
     .description__text-wrapper::before{
-      width: 5%;
+      width: 10%;
     }
     .description__text-wrapper::after{
-      width: 5%;
+      width: 10%;
     }
   }
