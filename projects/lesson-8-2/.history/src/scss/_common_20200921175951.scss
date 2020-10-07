@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: $main-font;
+    transition: all .4s ease;
 }
 html, body {
     min-height: 100vh;
@@ -21,17 +21,4 @@ ul{
 }
 h4{
     max-width: 300px;
-}
-main {
-    background-color: $bg-color;
-    padding-top: 50px;
-}
-
-.spinner-grow {
-    margin-right: 10px;
-}
-
-.text-spinner {
-    font-size: 13px;
-    color: #99A5B0;
 }
