@@ -1,0 +1,76 @@
+.header{
+    background-image: url(../img/bck1.png);
+    max-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 153px;
+    background-size: 100% 100%;
+    font-family: $regular;
+    &__logo{
+        color: #FFFFFF;
+        font-size: 48px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        
+    }
+    &__text{
+        color: #FFFFFF;
+        font-size: 22px;
+        letter-spacing: 3px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    form{
+        position: relative;
+        margin-bottom: 150px;
+    }
+    &__input{
+        border: none;
+        padding: 25px 127px;
+        padding-right: 277px;
+        font-size: 14px;
+        color: #999999;
+        letter-spacing: 1.5px;
+        z-index: 1000;
+        font-weight: 200;
+    }
+    &__btn{
+        position: absolute;
+        top: 0;
+        left: 542px;
+        border: 1px solid white;
+        padding: 23.5px 37px;
+        background-color: #5474FD;
+        font-family: $title;
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        &_text{
+            margin-right: 7px;
+        }
+    }
+    &__scroll{
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        letter-spacing: 2px;
+        position: relative;
+        &::after{
+            position: absolute;
+            border-left: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+            height: 10px;
+            top: 15px;
+    right: 50%;
+            left: 50%;
+            content: "";
+            transform: rotate(-45deg);
+
+        }
+    }
+}

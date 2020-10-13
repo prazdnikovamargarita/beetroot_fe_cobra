@@ -1,0 +1,31 @@
+.choice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    min-height: 50vh;
+    &__list{
+        max-width: 400px;
+    }
+    &__items{
+        display: flex;
+            flex-wrap: nowrap;
+            align-content: last center;
+        min-width: 400px;
+        min-height: 100px;
+        
+        &_link{
+            display: flex;
+            flex-wrap: nowrap;
+            align-content: last center;
+        }
+        &_text{
+            min-width: 70%;
+           
+            text-align: center;
+        }
+    }
+    
+
+}

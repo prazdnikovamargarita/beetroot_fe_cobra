@@ -1,0 +1,12 @@
+.about_us{
+    &__img{
+    
+    border: 2px solid white; /* simply to show you the collapsed state for this demo */
+    position: relative;
+    }
+    img{
+        box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    border-radius: 50%;
+        width: auto;
+      }
+}

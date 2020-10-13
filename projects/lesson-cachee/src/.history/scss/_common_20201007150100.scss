@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+  body {
+        
+    padding: 0 85px;
+  }
+  li {
+    list-style: none;
+  }
+  
+  select {
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  @media screen and (max-width: 992px){
+    body {
+        
+        padding: 0 45px;
+      }
+  }
+  @media only screen and (max-width: 600px) {
+    ody {
+        
+        padding: 0 15px;
+      }
+  }

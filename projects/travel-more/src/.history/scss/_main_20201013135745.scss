@@ -1,0 +1,16 @@
+.main{
+    
+    &__wrapper{
+        background-image: url(../img/bck3.png);
+        max-width: 100vw;
+        min-height: 50vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding-top: 228px;
+        padding-bottom: 100px;
+        background-size: 100% 100%;
+        font-family: $regular;
+    }
+}

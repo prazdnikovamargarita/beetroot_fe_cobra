@@ -1,0 +1,37 @@
+.choice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    min-height: 50vh;
+    &__list{
+        max-width: 400px;
+    }
+    &__items{
+        
+        min-width: 400px;
+        min-height: 100px;
+        
+        
+        &_link{
+        display: grid;
+        grid-template-columns: 200px 100px;
+        min-width: 400px;
+        min-height: 50px;
+        align-items: center;
+        margin-bottom: 5px;
+        grid-gap: 10px;
+        margin-bottom: 5px;
+        }
+            
+        &_text{
+            
+        }
+    }
+    
+
+}
+.fas{
+    
+}

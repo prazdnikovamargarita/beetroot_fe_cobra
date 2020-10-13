@@ -1,0 +1,99 @@
+.choose{
+    background-image: url(../img/bck2.png);
+    max-width: 100vw;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    background-size: 100% 100%;
+    font-family: $regular;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title{
+        padding-top: 65px;
+        font-size: 36px;
+        color: white;
+        font-family: $title;
+        margin-bottom: 52px;
+        font-weight: normal;
+    }
+    &__text{
+        color: #E8E8E8;
+        font-size: 16px;
+        margin-bottom: 35px;
+        width: 67%;
+    }
+    &__img{
+        padding-top: 25px;
+        &_item{
+            padding: 121px 203px;
+            position: relative;
+            &-1{
+                margin-right: 65px;
+                margin-bottom: 8px;
+            }
+            &-2{
+                margin-left: 65px;
+            }
+            img{
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                -o-object-fit: cover;
+                object-fit: cover;
+
+            }
+            
+        }
+    }
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-self: space-between;
+    align-self: space-between;
+    justify-self: space-between;
+    justify-content: space-between;
+    background-color: #333333;
+    padding: 3% 24%;
+    text-align: center;
+    &__items{
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 319px;
+            height: 178px;
+            border-radius: 160px/90px;
+            border-top: 2px dotted #999;
+            top: 22px;
+            right: 53%;
+        
+        }
+    }
+    &__text{
+        color: #E8E8E8;
+        font-family: $title;
+    }
+    i{
+        margin-bottom: 15px;
+        font-size: 40px;
+    }
+    .fas{
+        color: #5474FD;
+        
+    }
+    .far{
+        color: #FF6363;
+        &-blue{
+            color: #5474FD;
+        }
+    }
+}

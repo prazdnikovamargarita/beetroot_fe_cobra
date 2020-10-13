@@ -1,0 +1,23 @@
+.choice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    min-height: 50vh;
+    &__list{
+        max-width: 400px;
+    }
+    &__items{
+        
+        
+        &_link{
+            
+        }
+        &_text{
+            
+        }
+    }
+    
+
+}

@@ -1,0 +1,15 @@
+.gallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-self: center;
+    padding-top: 50px;
+    max-width: 100vw;
+    background-color: #FFE92F;
+    &__title{
+
+    }
+    &__text{
+
+    }
+}

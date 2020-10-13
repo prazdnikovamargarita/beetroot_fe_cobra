@@ -1,0 +1,23 @@
+.about_us{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-top: 5%;
+    
+    &__img{
+        padding: 2% 0;
+        padding-left: 2%;
+        justify-content: center;
+    }
+    img{
+       
+        width: 50%;
+        
+        box-shadow: 0 0 50px rgba(0,0,0,0.5);
+        border-radius: 50%;
+      }
+      &__content{
+          max-width: 500px;
+      }
+}

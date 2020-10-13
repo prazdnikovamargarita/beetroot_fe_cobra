@@ -1,0 +1,29 @@
+.choice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    min-height: 50vh;
+    &__list{
+        align-self: center;
+    }
+    &__items{
+            border: 1px solid black;
+            display: flex;
+        &_link{
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: space-between;
+            display: flex;
+            min-width: 400px;
+            min-height: 100px;
+        }
+        &_text{
+        }
+    }
+    svg{
+    }
+
+}

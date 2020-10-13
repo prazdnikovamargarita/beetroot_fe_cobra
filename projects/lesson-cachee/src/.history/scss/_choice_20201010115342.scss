@@ -1,0 +1,25 @@
+.choice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    min-height: 50vh;
+    &__list{
+        max-width: 400px;
+    }
+    &__items{
+        min-width: 400px;
+        
+        
+        &_link{
+            
+        }
+        &_text{
+            min-width: 300px;
+            display: block;
+        }
+    }
+    
+
+}

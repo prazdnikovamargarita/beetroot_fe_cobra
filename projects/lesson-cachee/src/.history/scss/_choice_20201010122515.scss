@@ -1,0 +1,30 @@
+.choice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    min-height: 50vh;
+    &__list{
+        max-width: 400px;
+    }
+    &__items{
+        
+        display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+
+  padding: 10px;
+        
+        &_link{}
+            
+        &_text{
+            grid-column: 1 / span 2;
+        }
+    }
+    
+
+}
+.fas{
+    
+}

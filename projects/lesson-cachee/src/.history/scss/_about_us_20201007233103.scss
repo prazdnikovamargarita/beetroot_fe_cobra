@@ -1,0 +1,27 @@
+.about_us{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 5%;
+    
+    &__img{
+        
+        
+        width: fit-content;
+        height: auto;
+    }
+    img{
+        padding: 2% 0;
+        padding-left: 1%;
+        padding-right: 20%;
+        width: 100%;
+        max-width: 500px;
+        
+        
+      }
+      &__content{
+          max-width: 500px;
+      }
+}
