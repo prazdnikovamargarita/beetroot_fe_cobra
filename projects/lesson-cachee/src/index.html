@@ -160,13 +160,96 @@
 			Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 		</p>
 		<form id="#subscribe">
-			<input type="text" id="fname" name="fname" class="subscribe__input">
-			<button type="submit" class="subscribe__dnt">
-				Subscribe
-			</button>
+			<input type="email" id="input_code" name="input_code"
+  pattern="[A-Za-z]{3}" placeholder = "Your email address..."
+  title="" class="subscribe__input">
+			<a class="cachee_button cachee_button--green">
+				SUBSCRIBE
+			</a>
 		</form>
 	</section>
+	<section class="blog" id="blog">
+        <div class="blog__wrapper container">
+            <h2 class="blog__title title">Blog</h2>
+            <span class="blog__subtitle">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit.</span>
+            <div class="blog__row">
+                <div class="blog__row-card">
+                    <a href="#"></a>
+                    <img src="./img/blog-1.png" alt="blog image1">
+                    <div class="blog__row-card-date">
+                        <span class="blog__row-card-date-day">20</span>
+                        <span class="blog__row-card-date-mons">NOV</span>
+                    </div>
+                    <div class="blog__row-card-text">
+                        <span class="blog__row-card-text-tite">Green Smoothies: Too Much of a Good Thing?</span>
+                        <span class="blog__row-card-text-subtitle">By Auskteez - 2 hours ago</span>
+                    </div>
+                </div>
+                <div class="blog__row-card">
+                    <a href="#"></a>
+                    <img src="./img/blog-2.png" alt="blog image2">
+                    <div class="blog__row-card-date">
+                        <span class="blog__row-card-date-day">14</span>
+                        <span class="blog__row-card-date-mons">NOV</span>
+                    </div>
+                    <div class="blog__row-card-text">
+                        <span class="blog__row-card-text-tite">Growing Food and a “Thirst” for Innovation</span>
+                        <span class="blog__row-card-text-subtitle">By Auskteez - 3 hours ago</span>
+                    </div>
+                </div>
+                <div class="blog__row-card">
+                    <a href="#"></a>
+                    <img src="./img/blog-3.png" alt="blog image3">
+                    <div class="blog__row-card-date">
+                        <span class="blog__row-card-date-day">10</span>
+                        <span class="blog__row-card-date-mons">NOV</span>
+                    </div>
+                    <div class="blog__row-card-text">
+                        <span class="blog__row-card-text-tite">Pesticides & Food: What You Need to Know</span>
+                        <span class="blog__row-card-text-subtitle">By Auskteez - 6 hours ago</span>
+                    </div>
+                </div>
+            </div>
+            <a class="cachee_button cachee_button--red">
+				VIEW MORE
+			</a>
+        </div>
+    </section>
 
+    <section class="contact" id="contact">
+        <div class="contact__wrapper">
+            <h2 class="contact__title title">Contact</h2>
+            <span class="contact__subtitle">For new projects, ideas, business or anything
+                you'd like to discuss, contact with me!</span>
+            <div class="contact__form-wrap container">
+                <form class="contact__form" method="get">
+                    <input class="contact__form-input" required type="text" placeholder="Auskteez Tran">
+                    <input class="contact__form-input" required type="email" placeholder="Your email..." name="contact-mail" id="mail">
+                    <input class="contact__form-input" required type="tel" placeholder="Your phone number..." name="contact-phone" id="phone">
+                    <textarea class="contact__form-textarea" name="contact-placearea" id="textarea" cols="30" rows="15" placeholder="Your messge..."></textarea>
+                    
+                </form>
+                <div class="contact__contact-data">
+                    <address>
+                        <span>ADDRESS</span>
+                        <span>123 City name, Street, City, Country</span>
+                    </address>
+                    <a href="mailto:test@test.com"><span>EMAIL</span><span>cahee@domain</span></a>
+                    <a href="tel:+"><span>PHONE</span><span>+012 345 6789</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <span>© 2015 Company. All right reserved.</span>
+            <a class="footer__link" href="/">Cahee</a>
+            <span>Made with <span class="footer__color">love</span> by Auskteez</span>
+        </div>
+    </footer>
 
 	
 	<script src="https://kit.fontawesome.com/0051fd68ee.js" crossorigin="anonymous"></script>

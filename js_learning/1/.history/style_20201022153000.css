@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow:hidden;
+    overflow-y:hidden;  /*для вертикального*/
+    overflow-x:hidden; 
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+
+}
+span::before{
+    display: block;
+   content: url("data:image/svg+xml;charset=UTF-8,<svg height='100' width='100'><circle cx='50' cy='50' r='40' stroke='black' stroke-width='3' fill='red' /></svg>");
+   background-size: 28px 28px;
+   height: 28px;
+   width: 28px;
+}

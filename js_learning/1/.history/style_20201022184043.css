@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,500;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow:hidden;
+    overflow-y:hidden;  /*для вертикального*/
+    overflow-x:hidden; 
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+
+}
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+  /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+  }
+  button, 
+  button:active, 
+  button:focus {
+      outline: none;
+  }
+button{
+    display: flex;
+    padding: 20px 40px;
+    border: 2px solid rgb(236,23,32);
+    border-radius: 15px;
+    transition: border 0.3s ease-out;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+button:active{
+    border: 2px solid rgb(72,175,73);
+
+}
+button:focus{
+    border: 2px solid rgb(72,175,73);
+
+}
+button:hover{
+    border: 2px solid rgb(224, 240, 4);
+
+}
+
+span{
+    display: inline-block;
+    font-size: 15px;
+
+    transition: content 0.3s ease-out;
+    position: relative;
+}
+span::before{
+    content: url(f-cross.png);
+    display: block;
+    position: absolute;
+    left: 0%;
+    margin-left: -30px;
+    top: -4px;
+
+}
+
+.button:hover span:before {
+    content: url(f-dengare.png);
+  }

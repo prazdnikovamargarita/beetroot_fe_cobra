@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow:hidden;
+    overflow-y:hidden;  /*для вертикального*/
+    overflow-x:hidden; 
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+
+}
+span{
+    background: #f4f4f4;
+    padding: 40px 20px 40px 26px;
+    position: relative;
+}
+span::before{
+    content: "f-check_256-512.png";
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: FontAwesome;
+    background: #23aae2;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    top: -30px;
+}
