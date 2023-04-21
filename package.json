@@ -14,7 +14,7 @@
     "babelify": "^10.0.0",
     "axios": "^0.19.0",
     "regenerator-runtime": "^0.13.3",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.29.1",
     "browserify": "^16.5.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
